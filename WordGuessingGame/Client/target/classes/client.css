@@ -1,0 +1,13 @@
+.root{
+    -fx-background-color: lightblue;
+}
+.button{
+    -fx-background-color: lawngreen;
+}
+.text-field {
+    -fx-background-color: lightcyan;
+    -fx-border-color: black;
+}
+.list-view{
+    -fx-background-color: Turquoise;
+}

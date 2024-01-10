@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:id="startPane" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="MainController">
+
+    <center>
+        <HBox fx:id="buttonBox" spacing="400">
+            <Button fx:id="serverChoice" text="Server" style="-fx-pref-width: 300px; -fx-pref-height: 300px;"
+                    onAction="#handleServerChoice" />
+            <Button fx:id="clientChoice" text="Client" style="-fx-pref-width: 300px; -fx-pref-height: 300px;"
+                    onAction="#handleClientChoice" />
+        </HBox>
+    </center>
+</BorderPane>
